@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jomolhari|Lobster|Teko&display=swap');
+@font-face {
+	font-family:'Lobster';
+	src: url("fontes/Lobster-Regular.ttf");
+}
+
+body#corpo {
+	background-color: lightblue;
+	}
+
+hgroup.titulo h1{
+	font-family: 'Lobster', cursive;
+	text-transform: uppercase;
+	color: blue;
+	text-decoration: underline;
+	margin-left: 70px;
+	font-size: 30pt;
+	}
+
+hgroup.titulo h2{
+	margin-left: 70px;
+	font-family: 'Teko', sans-serif;
+	font-size: -1150pt;
+}
+	
+figure.foto {
+	background-color: white;
+	width: 25%;
+	text-align: center;   
+	border: solid black 8px;
+	float: right;
+	padding-top: 5px;
+	}
+
+figure.foto h4 {
+	color: lightblue;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+
+span.texto {
+	font-family: 'Jomolhari', serif;	
+	text-indent: 50px;
+	font-size: 15pt;
+	text-align: justify;
+	color:white;
+	}
+	span.texto a{
+	color:white;
+	}
+
+header#cabecalho {
+	border-bottom: solid 2px gray;
+	height: 150px;
+	}
+
+article#conteudo {
+	background: url("imagens/atmfundo2.jpg"); /* 800px 270px;*/
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+
+/*Formatação de Tabela de Geografia*/
+
+table.geografia {
+	border: 2px gray solid;
+	float: left;    
+	margin-left: 50px;
+	margin-right: 300px;
+	border-color:white;
+/*	border-spacing: 0px; */   
+}
+
+table.geografia td {
+	border: 2px solid white;
+	padding: 10px;
+	text-align: center;
+	font-size:50px;
+}	
+
+/*formatação da tabela de preços e produtos*/
+
+table.produto caption{
+	color:white;
+
+}
+
+table.produto {
+	float: left;    
+	border: 1px solid white;
+	border-spacing: 0px; 
+	margin-right: 50px;
+	background-color:gray;
+}
+
+table.produto th {
+	border: 1px solid blue;
+	
+}
+
+table.produto td {
+	border: 1px solid blue;
+	padding: 10px;
+	text-align: center;
+	transition: border-radius 3s;
+}
+
+table.produto td:hover {
+	background-color: black;
+	color: white;
+	border-radius: 25px;
+}
+
+table.produto td.promo {
+	background-color: lightgreen;
+	color: blue;
+	font-family: arial;
+}
+
+table.produto td.promo:hover {
+	text-shadow: 4px 4px 4px blue;
+	transition: text-shadow 2s;
+}
+
+/*formatação do rodapé*/
+
+footer#rodape {
+	text-align: center;
+	border-top: solid gray 2px;
+	}
+
+/*formatação de menu*/
+
+nav#menu {
+	display: block;
+	}
+
+nav#menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	}
+
+nav#menu li {
+	display: inline-block;
+	background-color: lightgray;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	transition: background-color 3s;
+	}
+
+nav#menu li:hover {
+	background-color: darkgray;
+	}
+
+nav#menu a {
+	color: black;
+	text-decoration: none;
+	}
+
+nav#menu a:hover {
+	color: white;
+	text-decoration: underline;
+	}
+
+nav#menu h3 {
+	display: none;
+	}
+header#cabecalho img{
+	position:absolute;
+	top:70px;
+	right:80px;
+}
+
+/*formataçao video*/
+/*
+video.tube {
+	border: 4px solid blue;
+}
+*/

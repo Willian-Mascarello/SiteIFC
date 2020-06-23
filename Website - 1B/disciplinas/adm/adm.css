@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Sans+Pro&display=swap');
+@font-face {
+font-family: 'Turret Road';
+src: url("fontes/Monoton-Regular.ttf");
+}
+
+body#corpo {
+	background: #D2B48C; 
+	}
+	
+hgroup.titulo h1{
+	font-family: 'Turret Road';
+	text-transform: uppercase;
+	color: #FF8C00;
+	margin-left: 80px;
+	font-size: 25pt;
+	margin-top: 50px;
+
+	}
+
+hgroup.titulo h2 {
+	color: white;
+	font-size: 13pt;
+	margin-top: 80px;
+	text-align: center;
+	font-family: 'Press Start 2P';
+	}
+
+nav#menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 10px;
+	right: 80px;
+	margin-top: 40px;
+	font-size: 14pt;
+	}
+
+nav#menu li {
+	display: inline-block;
+	padding: 20px 20px;
+	color: #FF8C00;
+	transition: color 1s;
+	}
+	
+nav#menu li:hover {
+	color: #FF8C00;
+	transition: color 2s;
+	}
+
+nav#menu a {
+	color: white;
+	text-decoration: none;
+	transition: color 1s;
+	}
+	
+nav#menu a:hover {
+	text-decoration: none;
+	color: #FF8C00;
+	
+}
+	
+header#cabecalho {
+	border: solid 2px #D2B48C;
+	height: 280px;
+	background: url("imagens/eu.jpg") 0px;
+	margin: -10px;
+	}
+		
+span.texto {
+	font-family:'Source Sans Pro';
+	text-indent: 50px;
+	font-size: 38pt;
+	text-align: center;
+	color: black;
+	}
+	
+span.texto1{
+	font-family:'Source Sans Pro';
+	text-indent: 50px;
+	font-size: 20pt;
+	text-align: justify;
+	color: black;
+	}
+	
+article#conteudo {
+	background: #D2B48C; /* 800px 270px;*/
+	margin-left: 45px;
+	margin-right: 45px;
+	}
+	
+article#conteudo img{
+	width: 25%;
+	text-align: center;   
+	float: left;
+	padding-top: 79px;
+	}
+
+article#conteudo h3.title{
+
+	text-align: center;
+	color: #FF8C00;
+	font-size: 20pt;
+	font-family: 'Press Start 2P';
+	}
+	
+	
+article#conteudo iframe.video{
+	margin-left: 450px;
+	margin-right: 450px;
+	}
+	
+table.adm {
+	background-color:#F0FFF0;
+	border: 1px solid green;
+	border-spacing: 0px; 
+	margin-right: 50px;
+}
+
+table.adm th {
+	border: 2px solid black;
+	border-spacing: 0px;
+}
+
+table.adm td {
+	border: 2px solid black;
+	padding: 10px;
+	text-align: left;
+	transition: border-radius 3s;
+	border-spacing: 0px;
+}
+
+footer#rodape {
+	text-align: center;
+	border-top: solid gray 2px;
+	
+	}
+article#conteudo img {
+	background: url("imagens/objetivos.jpg") 0px;
+	height: 250px;
+	margin: 30px;
+}
+	
+span#prof {
+	font-size: 5pt;
+}

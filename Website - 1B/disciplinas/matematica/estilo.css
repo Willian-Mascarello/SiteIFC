@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+header#cabecalho {
+	text-align: center;
+	text-transform: uppercase;
+
+}
+header#cabecalho h1{
+	color: #1C1C1C;
+	font-size: 70pt;
+	margin-bottom: 0px;
+}
+header#cabecalho span.subtitulo{
+	margin-top: 0px;
+	color:rgba(105,105,105,0.7);
+	font-size: 15pt;
+
+}
+/*menu*/
+nav#menu ol{
+	list-style:none;  
+}
+nav#menu a{
+   	color:rgb(105,105,105);
+	text-decoration:none;
+	font-size: 15pt;
+}
+nav#menu a:hover{
+	color: white
+}
+nav#menu li{
+	display:inline-block;
+	padding-top:20px;
+	padding-bottom:35px;
+	padding-right:45px;
+	padding-left:45px;
+}
+nav#menu a.atual{
+	padding: 10px;
+	background-color: #1C1C1C;
+	color: white
+}
+/*rodape*/
+footer#rodape{
+	background-color: #1C1C1C;
+	color: white;
+	font-size: 12pt;
+}
+footer#rodape h1{
+	font-size: 12pt;
+}
+footer#rodape a{
+	text-decoration:none;
+	color: white;
+}
+footer#rodape span.rodape1{
+	display: inline-block;
+	text-align: center;
+	margin-left: 25px;
+}
+footer#rodape span.rodape2{
+	display: inline-block;
+	text-align: center;
+	margin-left: 505px
+}
+footer#rodape span{
+	display: block;
+	text-align: center;
+}
+/*conteudo*/
+article#conteudo span.branco{
+	background-color: white;
+	font-size: 12pt;
+	color: #8A8A8A;
+	text-align: justify;
+	display: block;
+	margin: 25px;
+	padding:25px;
+}
+article#conteudo span.titulo{
+	font-size: 25pt;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	background-color: 
+}
+article#conteudo figure.sp{
+	text-align: center;
+}
+article#conteudo h1{
+	text-align: center;
+	font-size: 14pt;
+	color: #1C1C1C;
+	text-transform: uppercase;
+}
+
+
+article#conteudo span.ntaobranco{
+	background-color: #f3f2ed;
+	display: block;
+	margin:25px;
+	padding:25px; 
+	text-align: justify;
+	font-size: 12pt;
+	color: #8A8A8A;
+}
+article#conteudo figure.figuras{
+	text-align: center;
+
+}
+article#conteudo figure.figuras img{
+	border: solid 6px #1C1C1C;
+}
+article#conteudo p{
+	text-indent: 40px;
+}
+body{
+	background-image: url("img/fundo.jpg");
+	padding: 0px;
+	margin:0px;
+	font-family: 'PT Sans', sans-serif;
+}
+article#conteudo figure.grafico{
+	text-align: center;
+	display: inline-block;
+	
+
+}
+article#conteudo figure.grafico img{
+	border: solid 6px #1C1C1C;
+}
+/*x/y*/
+article#conteudo table.xy {
+	color:#1C1C1C;
+	display: inline-block;
+	text-align: left;
+	margin-bottom:100px;
+	margin-top: 0px;
+	margin-left:150px;
+	margin-right:100px;
+	border-spacing:0px;
+}
+article#conteudo table.xy td{
+	text-align: center;
+	border: solid 3px #1C1C1C;
+	padding: 5px;
+}
+article#conteudo table.xy th{
+	text-align: center;
+	border: solid 3px #1C1C1C;
+	padding: 5px;
+}

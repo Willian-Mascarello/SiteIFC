@@ -1,0 +1,316 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
+@font-face {
+	font-family:'velozes&furiosos';
+	src: url("fontes/PressStart2P-Regular.ttf");
+}
+
+body#corpo {
+	backgroud: url("imagens/money-site-x-pbn-fundo.jpg");
+	}
+	hgroup.titulo h1{
+	font-family:'velozes&furiosos';
+	text-transform: uppercase;
+	color: black;
+	text-decoration: underline;
+	margin-left: 70px;
+	font-size: 30pt;
+	text-align: center;
+	}
+	hgroup.titulo h2{
+font-family: 'Damion', cursive;
+	text-align: center;
+	font-size: 20pt;
+	color:black;
+	}
+
+header#cabecalho {
+	border:solid 2px black;
+	height:280px;
+	background:url("imagens/template-fundo-site-conseitos-opticos-4.jpg") 0px;
+	margin:-10px;
+	padding:-100px;
+	}
+	
+footer#rodape {
+	background:url("imagens/template-fundo-site-conseitos-opticos-4.jpg") 0px;
+	margin:-10px;
+	padding:-100px;
+	height:80px;
+	width:1900px;
+	border:solid 2px black;
+	text-align:center;
+	position:absolute;
+	bottom:-1000px;
+}
+/* article.conteudo{
+	height:10000px;
+	width:10000px;
+} */
+
+
+footer#rodape2 {
+	background:url("imagens/template-fundo-site-conseitos-opticos-4.jpg") 0px;
+	margin:-10px;
+	padding:-100px;
+	height:80px;
+	width:1900px;
+	border:solid 2px black;
+	text-align:center;
+	position:absolute;
+	bottom:-1700px;
+}
+
+
+footer#rodape3{
+	background:url("imagens/template-fundo-site-conseitos-opticos-4.jpg") 0px;
+	margin:-10px;
+	padding:-100px;
+	height:80px;
+	width:1900px;
+	border:solid 2px black;
+	text-align:center;
+	position:absolute;
+	bottom:-2200px;
+}
+
+
+
+footer#rodape5{
+	background:url("imagens/template-fundo-site-conseitos-opticos-4.jpg") 0px;
+	margin:-10px;
+	padding:-100px;
+	height:80px;
+	width:1900px;
+	border:solid 2px black;
+	text-align:center;
+	position:absolute;
+	bottom:-1300px;
+}
+
+h5 {
+	
+	font-size:15pt;
+	text-indent:uppercase;
+}
+	
+	
+/* formataçã do menu */
+
+	nav#menu {
+	display: block;
+	background-color: light-gray;
+	}
+	
+nav#menu ol {
+	list-style: none;
+	font-size:18pt;
+	text-transform: uppercase;
+	position: absolute;
+	top:159px;
+	left:360px;
+	}
+	nav#menu li {
+	padding:30px;	
+	display: inline-block;
+	background-color: AliceBlue;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	transition: background-color 3s;
+	}
+	nav#menu li:hover {
+	color:white;
+	background-color: RoyalBlue	;
+	text-decoration: underline;
+	}
+	nav#menu a {
+	color:blue;
+	text-decoration: none;
+	}
+
+nav#menu a:hover {
+	color: white;
+	text-decoration: underline;
+	}
+
+
+	span.texto3 {
+	font-family: 'game';	
+	text-indent: 50px;
+	color: black;
+	text-align:justify;
+	font-size: 15pt;
+	position:absolute;
+	right:250px;
+	left:250px;
+	top:300px;
+	}	
+	span.texto3 p.sc {
+	color:OrangeRed;
+	text-transform: uppercase;
+	text-align: center;	
+	}	
+	
+
+	figure.foto {
+	position:absolute;
+	bottom:-1000px;
+	right:350px;
+	border: solid 4px black;
+	
+	}
+	figure.foto2 {
+	position:absolute;
+	bottom:-1500px;
+	left:340px;
+	border: solid 4px black;
+	}	
+	
+	img.topo1{
+	border-radius:15px;
+	position:absolute;
+	height:250px;
+	top:20px;
+	left:20px;	
+	}	
+	
+	img.topo2 {
+	border-radius:15px;
+	position:absolute;
+	top:120px;
+	left:20px;
+	}	
+	
+	img.topo3 {
+	border-radius:15px;
+	position:absolute;
+	height:200px;
+	width:230px;
+	top:70px;
+	left:20px;
+	}	
+	
+	img.topo4 {
+	border-radius:15px;
+	position:absolute;
+	height:150px;
+	width:210px;
+	top:120px;
+	left:20px;
+	}	
+	
+	img.topo5 {
+	border-radius:15px;
+	position:absolute;
+	height:150px;
+	width:210px;
+	top:120px;
+	left:20px;	
+	}	
+	
+	h3 {
+	position:absolute;
+	left:25px;
+	}	
+	
+	
+	/* tabela */ 
+	
+	table.numero {
+	
+	position:absolute;
+	top:1900px;
+	right:500px;
+	background-color:LightSkyBlue;
+	border: 2px solid yellow;
+	border-spacing: 1px; 
+	
+}
+
+table.numero th {
+	border: 1px solid ;
+}
+
+table.numero td {
+	border: 1px solid red;
+	padding: 10px;
+	text-align: center;
+	transition: border-radius 1s;
+}
+
+table.numero td:hover {
+	background-color: white;
+	color: black;
+	border-radius: 25px;
+}
+
+table.numero  {
+	background-color: LightSkyBlue;
+	color: black;
+	font-family: arial;
+	bottom: -1600px;
+	left: 300px;
+}
+
+table.numero td.promo:hover {
+	text-shadow: 4px 4px 4px black;
+	transition: text-shadow 2s;
+}
+
+table.numero tr.tit:hover{
+	background-color:red;
+}
+
+table.word th {
+	border: 1px solid;
+}
+
+table.word {
+	background-color: steelblue;
+	color: black;
+	font-family: arial;
+	bottom: -1150px;
+	right: 450px;
+	position: absolute;
+}
+
+table.word td {
+	border: 1px solid white;
+	padding: 10px;
+	text-align: center;
+	transition: border-radius 1s;
+}
+
+table.word td:hover {
+	background-color: white;
+	color: black;
+	border-radius: 25px;
+}
+
+table.word td.promo:hover {
+	text-shadow: 4px 4px 4px black;
+	transition: text-shadow 2s;
+}
+
+table.word tr:hover{
+	background-color:lightgray;
+}
+
+/*formataçao video*/
+/*
+video.tube {
+	border: 4px solid blue;
+}
+*/
+
+video.tube {
+	padding:20px;
+	border:10px solid black;
+	position:absolute;
+	top:2000px;
+	right:150px;
+	height:350px;
+	width:600px;
+}
+

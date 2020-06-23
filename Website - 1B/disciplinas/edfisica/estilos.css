@@ -1,0 +1,143 @@
+	@charset "UTF-8";	
+	
+	@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');                      /*altera a fonte*/                
+	
+	@font-face{ 
+	font-family:'fonte dos guri';
+	src: url("fontes/fonte_dos_guri.ttf");
+	}
+		header#cabecalho{
+			border-bottom:solid 2px gray;
+			height:300px;
+			background: url("imagens/fundo.jpg")0px;
+		}
+		
+		header#cabecalho-futsal{
+			border-bottom:solid 2px gray;
+			height:300px;
+			background: url("imagens/fut2.jpg")0px;
+		}
+		
+		header#cabecalho-volei{
+			border-bottom:solid 2px gray;
+			height:300px;
+			background: url("imagens/vol5.jpg")0px;
+		}
+		
+		header#cabecalho-handebol{
+			border-bottom:solid 2px gray;
+			height:300px;
+			background: url("imagens/hand.jpeg")0px;
+		}
+			
+			body#corpo{
+			background-color:#DCDCDC;
+			}
+			
+		h1.titulo {
+			font-family:'fonte dos guri';
+			color: white;                               /*altera a cor da fonte*/                              
+			font-size: 30pt;                           /*altera o tamanho da fonte*/                              	      
+			text-align: left;		
+			margin-top:10px;
+			margin-left:200px;
+		}
+
+		p .texto{                               /*border:solid para deixar tudo reto*/
+			font-size: 15pt;                    /*border-top para borda no topo*/
+			text-indent: 50px;                  /*border-bottom para borda em baixo*/
+			text-align: justify;                /*border-left para borda na esquerda */             
+			}                                   /*border-right para borda na direita */
+			
+			
+		span.texto{
+			font-size: 15pt;         	
+			text-indent: 50px;
+			text-align: justify;
+			font-family:'dosis'
+			}
+		
+		article#conteudo h4.title{
+		 text-align:center;
+		 color: #1C1C1C;
+		 font-size: 25pt
+		}
+		
+		article#conteudo{
+				color:#1C1C1C;
+			}
+		article#conteudo h5.title{
+		 text-align:center;
+		 color: #1C1C1C;
+		 font-size: 25pt;
+		}
+		
+		footer#rodape{
+		border-top: solid 2px gray;
+		text-align: center;
+			}
+		
+		nav#menu{                                           
+		display:block;		
+			}
+		
+		nav#menu ol{                                         /*para controlar as linhas dentro do nav*/                                             
+		list-style:none;
+		text-transform:uppercase; 	                      	/*para deixar em maiusculo*/
+		position:absolute;
+		top:0px;
+		right:100px;
+			}
+		
+		nav#menu li{                                          /*para controlar as linhas do ol*/
+		display:inline-block;                               /*para deixar tudo em uma linha*/
+		padding:10px;                                        /*para botar espaçamento interno*/
+		margin:3px; 
+		border-radius: 7px; 		                         /**arredondar as bordas e tem que vir acompanhado de um BORDER ou BACKGROUND-COLOR*/  
+		transition: color 2s,padding 1s;
+			}	
+			
+		nav#menu li:hover{                                /*para dar efeito na lista*/
+		background-color:#DCDCDC;   
+		padding: 15px;
+		}
+		
+		nav#menu a{                                          /*para controlar o hiperlink*/
+		color:black;                                        /*cor da letra*/
+		text-decoration:none;                               /*tirar sublinhado*/
+			}
+		
+		nav#menu a:hover{                                    
+		color:#3c3c3c;                                        
+		text-decoration:underline;                         /*botar sublinhado */           
+			}
+		
+		nav#menu h3{
+		display:none;                                   /*para tirar o h3*/	
+			}
+		
+		figcaption.legenda {
+		padding-bottom:0px;
+		}	
+		
+		table.tabela {                                  /*chamada de class das tabelas */
+		border: solid 2px black;
+		padding: 10px;
+		margin-bottom: 50px;
+		text-align: center;
+		float:left ;
+		}
+		
+		table.tabela td {
+		border: solid 2px black;
+		padding: 5px;
+		margin: 10px;
+		}
+	
+		img.imc {
+			margin-left:70px;
+			float: right;
+		}
+		
+		
+			

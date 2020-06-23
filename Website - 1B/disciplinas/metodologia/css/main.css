@@ -1,0 +1,424 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+
+h1 {	
+	font-size: 100%;
+	font: inherit;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.tabone {
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: center;
+	right: -400px;
+	position: relative;
+}
+
+.tabone td {
+	padding: 15px;
+	border: solid black 1.5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	transition: border 1.5s;
+}
+
+.tabone:hover td {
+	border: solid #778899 1.5px;
+}
+
+.vidoido {
+	right: 70px;
+	position: absolute;
+	top: 1465px;
+	border: solid black 1.5px;
+	border-radius: 10px;
+}
+
+.vidoidera {
+	right: 715px;
+	position: absolute;
+	top: 1465px;
+	border: solid black 1.5px;
+	border-radius: 10px;
+}
+
+input, select, textarea {
+	appearance: none;
+}
+
+/* Basico */
+
+	html {
+		box-sizing: border-box;
+	}
+
+	html, body {
+		background: #1c1d26;
+	}
+	
+	.corpo {
+		background: url("images/cinzaa.png");
+	}
+	
+	.meio {
+		position:relative ;
+		right: 0px;
+		border-left: solid 	#4682B4 365px;
+		border-right: solid  #4682B4 365px;
+		transition: opacity 1.5s;
+	}
+	
+	.meio:hover {
+		opacity: 0.5;
+	}
+	
+	body, input, select, textarea {
+		color: rgba(255, 255, 255, 0.75);
+		font-family: "Roboto", Helvetica, sans-serif;
+		font-size: 15pt;
+		font-weight: 100;
+		line-height: 1.75em;
+	}
+
+	a {
+		transition: border-color 0.2s , color 0.2s ;
+		border-bottom: dotted 1px;
+		color: #4682B4;
+		text-decoration: none;
+	}
+
+		a:hover {
+			color: #4682B4 !important;
+			border-bottom-color: transparent;
+		}
+
+
+	p {
+		margin: 0 0 2em 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #ffffff;
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			border: 0;
+		}
+
+	h2 {
+		font-size: 2em;
+		line-height: 1.5em;
+		letter-spacing: -0.025em;
+	}
+
+	h3 {
+		font-size: 1.35em;
+		line-height: 1.5em;
+	}
+
+	h4 {
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+
+	h5 {
+		font-size: 0.9em;
+		line-height: 1.5em;
+	}
+
+	h6 {
+		font-size: 0.7em;
+		line-height: 1.5em;
+	}
+
+/* Article */
+
+	span.special, article.special {
+		text-align: center;
+	}
+
+	header p {
+		color: #ffffff;
+		position: relative;
+		margin: 0 0 1.5em 0;
+	}
+
+	header h2 + p {
+		font-size: 1.25em;
+		margin-top: -1em;
+		line-height: 1.75em;
+	}
+
+	header h3 + p {
+		font-size: 1.1em;
+		margin-top: -0.8em;
+		line-height: 1.75em;
+	}
+
+	header h4 + p,
+	header h5 + p,
+	header h6 + p {
+		font-size: 0.9em;
+		margin-top: -0.6em;
+		line-height: 1.5em;
+	}
+
+	header.major {
+		margin: 0 0 4em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.major:after {
+			background: #4682B4;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 20em;
+			width: 75%;
+		}
+
+	footer.major {
+		margin: 4em 0 0 0;
+	}
+
+/* Imagens */ 
+	
+	.image {
+		border-radius: 4px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+	}
+
+		.image:before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			background-image: url("images/overlay.png");
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+		}
+
+		.image img {
+			border-radius: 4px;
+			display: block;
+		}
+
+		.image.left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.right {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.left, .image.right {
+			max-width: 40%;
+		}
+
+			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+		.image.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+			position: relative;
+		}
+
+			.image.fit img {
+				width: 100%;
+			}
+
+
+/* Header */
+
+	#page-wrapper {
+		padding-top: 8.5em;
+	}
+
+	#header {
+		background: rgba(39, 40, 51, 0.965);
+		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+		cursor: default;
+		height: 3.5em;
+		left: 0;
+		line-height: 3.5em;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+		#header h1 {
+			height: inherit;
+			left: 1.25em;
+			line-height: inherit;
+			margin: 0;
+			position: absolute;
+			top: 0;
+		}
+
+		#header nav {
+			position: absolute;
+			right: 1em;
+			top: 0;
+		}
+
+			#header nav ul {
+				margin: 0;
+			}
+
+				#header nav ul li {
+					display: inline-block;
+					margin-left: 2em;
+				}
+
+					#header nav ul li a, #header nav ul li span {
+						border: 0;
+						color: inherit;
+						display: inline-block;
+						height: inherit;
+						line-height: inherit;
+					}
+
+						#header nav ul li a.button, #header nav ul li span.button {
+							height: 2em;
+							line-height: 2em;
+							padding: 0 1.25em;
+						}
+
+						#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
+							margin-right: 0.5em;
+						}
+
+					#header nav ul li.active > a, #header nav ul li.active > span {
+						color: #e44c65;
+					}
+
+					#header nav ul li > ul {
+						display: none;
+					}
+
+/* Footer */
+
+	#footer {
+		background: #272833;
+		padding: 6em 0;
+		text-align: center;
+	}
+		#footer .copyright {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8em;
+			line-height: 1em;
+			margin: 2em 0 0 0;
+			padding: 0;
+			text-align: center;
+		}
+
+			#footer .copyright li {
+				border-left: solid 1px rgba(255, 255, 255, 0.3);
+				display: inline-block;
+				list-style: none;
+				margin-left: 1.5em;
+				padding-left: 1.5em;
+			}
+
+				#footer .copyright li:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+
+				#footer .copyright li a {
+					color: inherit;
+				}
+
+			body, input, select, textarea {
+				font-size: 11.5pt;
+			}
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+		/* Footer */
+
+			#footer {
+				padding: 4.5em 0;
+			}
+
+			#navPanel, #titleBar {
+			display: none;
+			}
+			
+			.listaum {
+				list-style: disc;
+				
+			}
+			
+			.listadois {
+				list-style: circle;
+				padding: 40px;
+			}
+			
+			.listatres {
+				list-style: square;
+				list-style-position: inside;
+			}
+			
+			.negrit:hover {
+				color: #4682B4;
+				transition: color 0.5s;
+				
+			}
+			
+			.mao {
+				position: relative;
+				width: 700px;
+				border-left: solid #002C4F 315px;
+				border-right: solid #002C4F 315px;
+				transition: opacity 1.5s;
+			}
+			
+			.mao:hover {
+				opacity: 0.5;
+			}
+			
+			
+			/*https://www.w3schools.com/*/
+			
+			
+			

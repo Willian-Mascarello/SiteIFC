@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Courgette';
+    src: url('fontes/Courgette-Regular.ttf');
+	} 
+
+body#corpo {
+	background-image: url("imagens/pergaminho.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:100%;
+	}
+
+h1.titulo {
+	color: rgb(82, 116, 173);
+	font-size: 35px;
+	font-family: Courgette;
+	text-align: center;
+	text-decoration: underline;
+	}
+	
+h2.subtitulo {
+position: absolute;
+left: 36%;
+top: 47px;
+font-size: 30;
+	}
+
+figure.foto {
+	background-color: lightblue;
+	width: 25%;
+	text-align: center;   
+	border: double black 8px;
+	float: left;
+	padding-top: 5px;
+	}
+
+figure.foto img{
+	width: 325px;
+	}
+
+span.texto p {
+	text-indent: 50px;
+	font-size: 15pt;
+	text-align: justify;
+	}
+
+span.texto {
+	margin-bottom: 400px;
+	text-indent: 50px;
+	font-size: 17pt;
+	}
+
+header#cabecalho {
+	border-bottom: solid 2px gray;
+	}
+
+article#conteudo {
+	}
+
+footer#rodape {
+	text-align: center;
+	border-top: solid gray 2px;
+	font-size: 20px;
+	}
+
+/*formatação de menu*/
+
+nav#menu {
+	display: block;
+	}
+
+nav#menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-left: 85px;
+	}
+
+nav#menu li {
+	display: inline-block;
+	background-color: lightgray;
+	padding: 10px;
+	margin: 25px;
+	transition: background-color 2s;
+	}
+
+nav#menu li:hover {
+	background-color: gray;
+	}
+
+nav#menu a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	}
+
+nav#menu a:hover {
+	color: white;
+
+	}

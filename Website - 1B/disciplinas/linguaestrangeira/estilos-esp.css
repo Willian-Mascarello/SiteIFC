@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
+@font-face {
+	font-family: '8bit' ;
+	src: url("Fontes/PressStart2P-Regular.ttf");
+}
+
+h1.titulo {
+	color: black;
+	font-family: 'Baloo', cursive;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+body#corpo {
+	background-color: #FFD700;
+}
+	
+spam.texto {  
+	text-indent: 50px;           
+	text-align: justify;         
+	font-size: 15pt;
+	font-family: arial;
+}
+
+header#cabecalho {
+	border-bottom: 2px solid grey;
+}
+
+footer#rodape {
+	border-top: 2px solid grey;
+	text-align: center;
+}   
+
+nav#menu {
+  	display: block;
+  	position:fixed; 
+ 	height:110px; 
+ 	top:0px; 
+ 	width:100%;  
+}
+
+nav#menu ol {
+ 	list-style: none;
+ 	text-transform: uppercase;
+ 	position:absolute;
+ 	top:0px;
+ 	right:60px;
+}
+nav#menu li {
+ 	display:inline-block;
+ 	background-color: lightgrey;
+ 	margin: 3px;
+ 	padding: 10px;
+ 	border-radius: 50px;
+ 	transition: background-color 0.5s, padding 0.5s;
+ 	font-family: '8bit' ;
+}
+nav#menu li:hover {
+  	background-color:gray;
+  	padding: 15px;
+}
+nav#menu a {
+ 	color:black;
+ 	text-decoration: none;
+}
+nav#menu a:hover {
+  	color:#8A2BE2;
+  	text-decoration: underline;
+}
+nav#menu h3 {
+  	display: none;
+  }
+table.espanhol {
+	border:solid 3px;
+	background-color:#F0E68C; 
+	font-family: arial;
+}
+caption.espanhol {
+	border: solid;
+	font-family: arial;
+	font-style: 
+}
+td {
+	border: solid;
+	text-align: center;
+	font-size: 16pt;
+}
+th {
+	border-left: solid 2px;
+	border-right: solid 2px; 
+}

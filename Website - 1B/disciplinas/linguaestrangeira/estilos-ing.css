@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
+
+
+h1.titulo {
+	color: black;
+	font-family: 'Baloo', cursive;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 60pt;
+	margin-left: 360px;
+}
+h2 {
+	font-family: arial;
+	margin-left: 360px;
+}
+
+body#corpo {
+	background-color: #4169E1;
+}
+	
+span.texto {  
+	text-indent: 50px;           
+	text-align: justify;         
+	font-size: 15pt;
+	font-family: arial;
+	margin: 60px;
+}
+article {
+	text-align: center;
+	margin: 100px; 
+	background-color: #6495ED;
+}
+
+header#cabecalho {
+	border-bottom: 2px solid grey;
+}
+
+footer#rodape {
+	border-top: 2px solid grey;
+	text-align: center;
+}   
+
+nav#menu {
+  	display: block;
+  	position:fixed; 
+ 	height:110px; 
+ 	top:0px; 
+ 	width:100%;  
+}
+
+nav#menu ol {
+ 	list-style: none;
+ 	text-transform: uppercase;
+ 	position:absolute;
+ 	top:0px;
+ 	right:60px;
+}
+nav#menu li {
+ 	display:inline-block;
+ 	background-color: #4169E1;
+ 	margin: 3px;
+ 	padding: 15px;
+ 	border-radius: 50px;
+ 	transition: background-color 0.5s;
+ 	font-family: arial ;
+}
+nav#menu li:hover {
+  	background-color:#6495ED;
+  	padding: 15px;
+}
+nav#menu a {
+ 	color:black;
+ 	text-decoration: none;
+}
+nav#menu a:hover {
+  	color:black;
+  	text-decoration: underline;
+}
+nav#menu h3 {
+  	display: none;
+  }
+table.ingles {
+	border:solid 3px;
+	background-color:#4169E1; 
+	font-family: arial;
+	text-align: center;
+	margin-left: 630px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+caption.ingles {
+	border: solid;
+	font-family: arial;
+	font-style: bold; 
+	font-size: 15pt;
+
+}
+td {
+	border: solid 2px;
+	text-align: center;
+	font-size: 16pt;
+}
+th {
+	border-left: solid 2px;
+	border-right: solid 2px; 
+}
+h4 {
+	font-family: arial;
+	font-size: 15pt;
+	text-align: center;
+}
+/*figure.foto {
+	width: 100%;
+}*/
+img {
+	width: 20%;
+}
+a.pdf {
+	font-family: arial;
+	font-size: 15pt;
+	text-align: center;
+}
+a {
+	font-family: arial;
+}
+img.ru {
+	text-align: center;
+	margin-left: 350px;
+}
+h5 {
+	text-align: center;
+}

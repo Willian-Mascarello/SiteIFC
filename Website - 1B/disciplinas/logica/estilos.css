@@ -1,0 +1,444 @@
+@charset "utf-8";
+
+font-face {
+     font-family: 'Bowlby One SC', cursive;
+     src: url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+}
+
+body#corpo{
+	background: url("imagens/fundo2.jpg"); /*imagem de fundo*/
+}
+
+ h1.titulo {
+          
+		position: absolute;
+	    top:35px;
+		right:350px;
+		border-bottom: solid white 2px;
+		color: white;
+		font-family:courier new;  /*fonte local*/
+		
+}
+
+article#conteudo{
+        background-color: rgb(179, 230, 255);
+		margin-left:300px;
+		margin-right:100px;
+		margin-top:100px;
+		border: solid white 4px;
+	    
+}
+
+nav#menu li {
+	    background-color: #FFFFFF;
+	    padding:10px;
+		padding-left: 50px;
+		padding-right:50px;
+		padding-bottom:12px;
+		padding-top:12px;
+	    margin:40px;
+		border-radius: 10px;
+		border:double black 10px;
+		text-decoration: none;
+		opacity:.6; <!-- .6 nivel de Transparencia -->
+	    
+		
+		
+}
+
+nav#menu ol {
+		list-style:none;
+		text-transform: none;
+        position: absolute;
+	    top:60px;
+		right:1020px;
+		text-align: center;
+	    	
+	    }
+
+
+nav#menu li:hover {
+		text-decoration: none;
+		background-color:rgb(255, 255, 255);
+		opacity:.9;
+	}
+	
+
+nav#menu a{
+        text-decoration:none;
+        color:black;
+        font-family:'Bowlby One SC', cursive;  /*fonte importada*/
+
+}	
+
+/*aqui começa a sessão "video aulas*/
+h1.titulovideoaula{
+	    background-color:white;
+	    margin-right: 150px;
+	    font-size:120%;
+	    border: solid black 2px;
+	    border-left:none;
+		text-indent:20px;
+}
+
+span.video1{
+	    position: absolute;
+     	left: 100px;
+	    top: 100px;
+	    border: solid black 5px;
+	    padding-left:77px;
+	    padding-right:77px;
+	    background-color:white;
+	
+}   
+span.video1 p{
+	    font-size:150%;
+	    border: solid black 2px;
+		text-align: center;
+}
+
+span.video2{
+	    position: absolute;
+	    left: 100px;
+	    top: 600PX;
+	    border: solid black 5px;
+	    padding-left:100px;
+	    padding-right:100px;
+	    background-color:white;
+}
+
+span.video2 p{
+	    font-size:150%;
+	    border: solid black 2px;
+	    text-align: center;
+}
+
+span.video3{
+	    position: absolute;
+	    left: 100px;
+	    top: 1100PX;
+	    border: solid black 5px;
+	    padding-left:100px;
+	    padding-right:100px;
+	    background-color:white;
+}
+	
+span.video3 p{
+	
+	    font-size:150%;
+	    border: solid black 2px;
+	    text-align: center;
+}
+
+span.video4{
+	    position: absolute;
+	    left: 100px;
+	    top: 1600PX;
+	    border: solid black 5px;
+	    padding-left:100px;
+	    padding-right:100px;
+	    background-color:white;
+}
+	
+span.video4 p{
+	    font-size:150%;
+	    border: solid black 2px;
+	    text-align: center;
+}
+
+span.video5{
+	    position: absolute;
+	    left: 100px;
+	    top: 2100PX;
+	    border: solid black 5px;
+	    padding-left:100px;
+	    padding-right:100px;
+	    background-color:white;
+}
+	
+span.video5 p{
+	
+	    font-size:150%;
+	    border: solid black 2px;
+	    text-align: center;
+}
+
+
+
+
+/*fim da sessão video aulas*/
+
+
+	
+/*inicio da seção saiba mais*/
+ 
+ h1.saibatitulo{
+	    background-color:white;
+	    padding:30px;
+		margin-left: 20px;
+		margin-right: 20px;
+		border: solid black 3px;
+		text-align:center;
+		font-size:150%;
+ }
+
+section.section p{
+	background-color:white;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: solid black 2px;
+	font-size: 150%;
+	text-align:justify;
+	text-indent: 20px;
+
+}
+
+figure.engrenagem {
+	position:absolute;
+	bottom: 590px;
+	left:100px;
+
+}
+
+p.prog{
+	background-color:white;
+	padding-left: 150px;
+	padding-right: 150px;
+	border: solid black 2px;
+	font-size: 150%;
+	position: absolute;
+	top:650px;
+	left:150px;
+}
+
+video.videolocal{
+	position:absolute;
+	top:200px;
+	left:140px;
+}
+
+table.tabela{
+	border: solid black 2px;
+	background-color:white;
+	position: absolute;
+	top:50px;
+	left:115px;
+	
+	
+}
+
+table.tabela td{
+	border:solid black 2px;
+	text-align:center;
+	padding: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	font-size:120%;
+	background-color: rgb(200, 200, 200);
+	
+}
+
+table.tabela caption{
+	position:center;
+	font-size:25px;
+	text-decoration:underline;
+	margin-bottom:10px;
+}
+
+/*fim da seção saiba mais*/
+
+/*inicion da seção pratique*/
+
+p.texto{
+	text-align: justify;
+	text-indent: 20px;
+	font-size: 20px;
+	background-color: white;
+}
+
+span.primeirojogo{
+	text-align: center;
+}
+
+span.segundojogo{
+	text-align: center;
+}
+
+span.terceirojogo{
+	text-align: center;
+}
+
+span.quartojogo{
+	text-align: center;
+}
+
+span.quintojogo{
+	text-align: center;
+}
+
+span.sextojogo{
+	text-align: center;
+}
+/*fim da seção pratique*/
+
+/*inicio da seção agradecimentos*/
+
+p.textos{
+	text-align: center;
+	font-size: 40px;
+	background-color:rgb(129, 164, 219);
+
+
+}
+
+figure.cleber{
+	text-align: center;
+}
+
+figure.junior{
+	text-align: center;
+}
+
+p.cleber{
+	text-align: center;
+	font-size: 20px;
+	border:solid 4px white;
+	background-color: white;
+	transition: 2s;
+}
+
+p.cleber:hover{
+	border: double white 4px;
+	background-color:gray;
+}
+
+p.junior{
+	text-align: center;
+	font-size: 20px;
+	border:solid 4px white;
+	background-color: white;
+	transition: 2s;
+}
+
+p.junior:hover{
+	border: double white 4px;
+	background-color:gray;
+}
+	
+p.final{
+	padding:50px;
+	border: solid black 10px;
+	transition: 2s;
+	
+}
+
+p.final:hover{
+	border: double white 4px;
+	background-color:gray;
+	
+}
+
+
+
+/*fim da seção agradecimentos*/
+
+
+footer#rodape{
+	color:white;
+	position: absolute;
+	top:650px;
+	left: 550px;
+	text-align:center;
+}
+
+footer#rodape h5{
+	border-top:solid white 2px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-family:'Bowlby One SC', cursive;
+	
+}
+	
+ 	
+
+  
+
+
+
+
+	
+	
+
+
+/*efeito paralax*/
+
+
+body,html{margin:0;padding:0;}
+
+.wrapper {
+  
+	height: 80vh;
+
+  
+	overflow-x: hidden;
+
+  
+	perspective: 2px;
+
+  
+ 
+  transform-style: preserve-3d;
+}
+
+.section {
+ 
+	position: relative;
+
+ 
+	height: 100vh;
+	min-height: 700px;
+
+ 
+	transform-style: inherit; 
+}
+
+.section::before {
+ 
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+  
+  z-index: -1;
+
+  
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+ 
+  
+	transform: translateZ(-1px) scale(1.5);
+}
+
+.text{
+  
+	position: absolute;
+	top: 5000;
+	width: 100%;
+	padding: 20px 0;
+	background-color: rgb(255, 255, 255,);
+
+ 
+}
+
+
+	
+	    	
+	    
+
+	
+

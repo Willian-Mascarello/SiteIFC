@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');/*font-family: 'Lato', sans-serif;*/
+@font-face {
+	font-family:'velozes&furiosos';
+	src: url("fontes/FasterOne-Regular.ttf");
+}
+
+
+body#corpo {
+	background-color: lightgray;
+	background-image:url("fotos/background.jpg");
+	}
+
+hgroup.titulo h1{
+	font-family: 'Notable', sans-serif;
+	text-transform: uppercase;
+	color: blue;
+	text-decoration: underline;
+	margin-left: 70px;
+	font-size: 30pt;
+	text-shadow: 2px 2px black;
+	}
+
+hgroup.titulo h2{
+	margin-left: 70px;
+
+
+}
+	
+figure.prehistoria{
+	position:absolute;
+	top: 180px;
+	;
+	background-color: lightgray;
+	text-align: center;   
+	border: double black 8px;
+
+	float:left;
+	left:200px;
+	color:black;
+	
+	}
+
+	figure.idademedia: hover{
+		background-color:black;
+	}
+
+	figure.idadeantiga{
+		position:absolute;
+		top: 180px;
+	background-color: lightgray;
+	text-align: center;   
+	border: double black 8px;
+		float:left;
+
+	left:650px;
+	color:black;
+	padding:-20px;
+}
+
+	figure.idademedia{
+		position:absolute;
+		right:200px;
+		top:180px;	
+		border: double black 8px;
+			text-align: center; 
+			background-color: lightgray; 
+
+}
+
+figure.feudalismo{
+	position:absolute;
+	right:500px;
+	top:650px;
+	border: double black 8px;
+	float: right;
+
+
+
+}
+
+hgroup.assuntododia{
+	position:absolute;
+	right:680px;
+	top:450px;
+	font-size:30pt;
+	text-align: center;
+}
+
+
+	
+
+
+
+
+header#cabecalho {
+	border-bottom: solid 2px gray;
+	height: 150px;
+	}
+header#cabecalho img{
+	position: absolute;
+	top: 70px;
+	right: 80px;
+}
+
+article#conteudo {
+	
+	padding: 128px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	*font-family: 'Lato', sans-serif;*
+
+
+	}
+
+/*Formatação de Tabela de Geografia*/
+
+
+
+footer#rodape {
+	text-align: center;
+	border-top: solid gray 2px;
+	color:white;
+	}
+
+/*formatação de menu*/
+
+nav#menu {
+	display: block;
+	}
+
+nav#menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	}
+
+nav#menu li {
+	display: inline-block;
+	background-color: lightgray;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	transition: background-color 3s;
+	}
+
+nav#menu li:hover {
+	background-color: darkgray;
+	}
+
+nav#menu a {
+	color: black;
+	text-decoration: none;
+	}
+
+nav#menu a:hover {
+	color: white;
+	text-decoration: underline;
+	}
+
+nav#menu h3 {
+	display: none;
+	}
+
+
+/*formataçao video*/
+/*
+video.tube {
+	border: 4px solid blue;
+}
+*/
+
+table.tabela{
+	position:absolute;
+	right:50px;
+	margin-left: 20px;
+	margin-right:20px;
+	border-spacing:0px;
+	color:white;
+	text-align:center;
+	border:solid black 2px;
+
+	
+	}
+	table.tabela td{
+	border:solid black 2px; 
+	text-align: center;
+	padding:0px;
+	}
+	table.tabela th{
+		color:white;
+	text-align: center;
+	text-transform:uppercase;
+	}
+
+	iframe.prehistoriamovie{
+		position: absolute;
+		top: 750px;
+	}
+
+p.paragrafo{
+	text-align: justify;
+	color:white;
+}
+
+img.egitoimg{
+		border: double black 8px;
+		border-radius: 20px;
+}
+video.videohitoria{
+position:absolute;
+bottom:-650px;
+left:340px;
+}
+
+h5.tutorial{
+	position:absolute;
+	font-size:80px;
+	right:760px;
+	bottom:-280px;
+
+
+}

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body#corpo {
+	background-color: black;
+}
+hgroup.titulo h1{
+text-align: center;
+color: white;
+background-color: blue;
+border-radius: 100px;
+padding-left: 100px;
+padding-right: 100px;
+	
+}
+header#cabecalho h2{
+text-align: justify-all;
+text-decoration: underline;
+color: white;
+}
+span.texto {
+
+	font-size: 20px;
+	text-indent: 50px;
+	text-align: center;
+	padding-left: 500px;
+	padding-right: 500px;
+	color: lightgray;
+	font-family: arial;
+}
+article#conteudo{
+	background: url("imagens/nebula.jpg")no-repeat;
+	background-size: 150%;
+	background-position: center;
+	padding: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	background-color: white;
+	color: white;
+}
+article#conteudo a{
+	color: lightblue;
+	font-size: 20px;
+	text-indent: 50px;
+	text-align: center;
+	margin-left: 500px;
+	margin-right: 500px;
+	text-align: center;
+
+	}
+nav#menu a {
+	background-color: blue;
+	width: 2000%;
+	border-radius: 10px;
+	background-size: 200%;
+	color: white;
+	font-size: 50pt;
+	text-decoration: none;
+	transition: background-color 1s;
+}
+nav#menu li{
+	margin: auto;
+	display: block;
+}
+nav#menu a:hover {
+	background-color: lightblue;
+	color: black;
+}
+footer#rodape {
+	text-align: center;
+	color: lightblue;
+}
+table.formulas {
+	background-color: blue;
+	color: white;
+	margin: auto;
+	border: solid lightblue;
+	border-spacing: 0px;
+	box-shadow: white 100000px;
+}
+
+table.formulas td{
+	border: solid lightblue;
+}
+table.formulas th{
+	border: solid lightblue;
+	color: lightblue;
+}
+article.fisicos {
+	color: white;
+	text-align: center;
+	background: url("imagens/nebula.jpg")no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+figure#foto img{
+	border-style: dotted;
+	border-width: 10px;
+	border-top-color: blue;
+	border-left-color: blue;
+	border-bottom-color: gray;
+	border-right-color: gray;
+}

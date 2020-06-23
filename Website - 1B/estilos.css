@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body#corpo {
+    background-color: green;
+}
+
+hgroup.titulo h1 {
+    font-size: 100;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+hgroup.titulo h2 {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    float: right;
+    margin-right: 220px;
+    margin-top: 140px;
+}
+
+header#cabecalho {
+    background-color: lightgray;
+    margin: 5%;
+    border-radius: 3px;
+}
+
+nav#redessociais ul {
+    position: absolute;
+    top: 170px;
+    right: 190px;
+}
+
+nav#redessociais li {
+    list-style: none;
+    padding: 10px;
+    display: inline;
+    background-color: gray;
+    margin: 2px;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+div#youtube li {
+    transition: background-color 0.8s;
+    position: absolute;
+    float: right;
+}
+
+div#youtube li:hover {
+    background-color: red;
+
+
+}
+
+div#facebook li {
+    transition: background-color 0.8s;
+    position: absolute;
+    right: 10px;
+}
+
+div#facebook li:hover {
+    background-color: blue;
+
+}
+
+nav#redessociais a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.8s;
+}
+
+
+nav#redessociais a:hover {
+    color: white;
+}
+
+article#conteudo {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lightgray;
+    margin: 5%;
+    text-align: justify;
+    font-size: 16pt;
+    border: 20px solid lightgray;
+    border-radius: 3px;
+
+
+}
+
+footer#rodape {
+    text-align: center;
+    font-size: 12pt;
+    border-top: 2px solid black;
+    margin: 5%;
+    font-family: 'Ubuntu', sans-serif
+}
+
+figure.mapa {
+    float: right;
+    border-radius: 10px;
+    text-align: center; 
+
+
+
+}
+
+nav#indice{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16pt;
+    background-color: lightgray; 
+    margin: 5%;
+    border: 20px solid lightgray;
+    border-radius: 3px;
+}
+
+nav#indice a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+nav#indice a:hover{
+    color: white;
+}
+
+#contdisc{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lightgray;
+    margin: 5%;
+    text-align: justify;
+    font-size: 16pt;
+    border: 20px solid lightgray;
+    border-radius: 3px;
+}
+
+h4#low a{
+    text-decoration: none;
+    color: black;
+    float: right;
+}
+
+table#tb{
+    border-spacing: 0px;
+    border: solid black 3px;
+    margin: auto;
+}
+
+table#tb th{
+    color: black;
+    border: solid gray 1px;
+}
+
+table#tb td{
+   border: solid gray 1px;
+}
+
+table#tb .jooj /*coluna CH e NAS*/{
+    text-align:center;
+}
+
+table#tb a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+table#tb a:hover{
+    color: white;
+}
+
+video {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.help{
+    color: gray;
+    text-align: center;
+}
